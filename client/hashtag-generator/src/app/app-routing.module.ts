@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { HashtagCopyFieldComponent } from './hashtag-copy-field/hashtag-copy-field.component';
+import { HashtagManagerComponent } from './hashtag-manager/hashtag-manager.component';
 
 const routes: Routes = [
-  { path: '', component: HashtagCopyFieldComponent, pathMatch: 'full' }
+  { path: '', component: HashtagManagerComponent, pathMatch: 'full' }
 ];
 
 @NgModule({
