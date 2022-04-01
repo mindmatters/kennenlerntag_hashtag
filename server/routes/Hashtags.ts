@@ -1,8 +1,8 @@
-import express from 'express';
-import controller from '../controllers/hashtags';
+import express from 'express'
+import controller from '../controllers/hashtags'
 
-const router = express.Router();
+const routes = express.Router()
 
-router.get('/hashtags', controller.getAllTags);
+routes.get('/hashtags', controller.getAllTags)
 
-export = router;
+export = routes
